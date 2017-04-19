@@ -32,7 +32,7 @@ return {
     contentBase: resolve('./'),
     compress: true,
     port: 8080,
-    host: "10.30.3.254", // specify your personal ip adress
+    host: "10.30.4.237", // specify your personal ip adress
   }
   }
 };

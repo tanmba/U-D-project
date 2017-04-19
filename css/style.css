@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+/*Navigation*/
+nav {
+    display: flex;
+    padding: 3% 12%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1vw;
+}
+
+ul, li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+}
+
+nav a, nav li {
+    margin-top: 5px;
+    transition: 1s;
+}
+
+nav a:hover  {
+    color: #FFC13C;
+}
+
+nav ul {
+    width: 100%;
+}
+
+nav span{
+    width: 15%;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    overflow: hidden;
+    transform: rotate(-90deg);
+    font-size: 2vw;
+    color: #FFC13C;
+}
+
+/*Accueil*/
+.container {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 500px;
+    margin-top: 5%;
+    padding: 0 5%;
+}
+
+.container div {
+    display: inline;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.7;
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-left: 1%;
+    transition: 1s;
+}
+
+.container img {
+    width: 25%;
+    height: 320px;
+}
+
+.container div:hover {
+    opacity: 1;
+}
+
+.first-image {
+    background-image: url("../imgs/ouvrier-1.jpg");
+}
+
+.second-image {
+    background-image: url("../imgs/signalisation.jpg");
+}
+
+.third-image {
+    background-image: url("../imgs/ouvrier-2.jpg");
+}
+
+.call {
+    position: absolute;
+    bottom: 0;
+    padding: 1% 2%;
+    border: none;
+    background-color: #FFC13C;
+    color: #ffffff;
+    font-size: 15px;
+}

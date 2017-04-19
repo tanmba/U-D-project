@@ -1,7 +1,7 @@
 import { Fetch } from './Fetch';
 
 
-var whendataLoaded = Fetch( 'http://localhost/wordpress/wp-json/wp/v2/pages' );
+var whendataLoaded = Fetch( 'http://localhost:8888/u&d/wp-json/wp/v2/pages' );
 whendataLoaded.then( function( content ) {
   console.log( content )
 
