@@ -64,16 +64,14 @@ nav span{
     padding: 0 5%;
 }
 
-.contain div {
-    display: inline;
-    margin-left: 1%;
+.image{
+    display: inline-block;
 }
 
-.contain img {
-    width: 25%;
+.image img {
     cursor: pointer;
     opacity: 0.7;
-    height: 400px;
+    /*height: 400px;*/
     margin-left: 1%;
     transition: 1s;
 }
