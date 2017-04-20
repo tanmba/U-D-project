@@ -57,11 +57,7 @@ nav span{
 
 /*Accueil*/
 .contain, .container {
-    display: block;
     text-align: center;
-    height: 500px;
-    margin-top: 5%;
-    padding: 0 5%;
 }
 
 .image{
