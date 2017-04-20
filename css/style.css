@@ -6,7 +6,7 @@ body {
 }
 
 .call {
-    position: absolute;
+    position: fixed;
     right: 15%;
     bottom: 0;
     padding: 1% 2%;
